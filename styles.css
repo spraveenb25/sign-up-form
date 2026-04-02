@@ -1,0 +1,97 @@
+.outer-container{
+    border: 1px solid #596D48;
+    height: 950px;
+    display: flex;
+}
+
+.image-section img{
+    height: 950px;
+    width: 700px;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    position: ab;
+}
+
+.transparentdiv{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    position: absolute;
+    top: 230px;
+    font-size: 40px;
+    color: #E5E7EB;
+    background-color: #0000006d;
+    width: 700px;
+    height: auto;
+    opacity: 0.9;
+}
+
+.transparentdiv img{
+    height: 100px;
+    width: auto;
+}
+
+.content-section,.sign-up-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.header{
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+
+
+.sign-up-section{
+    box-shadow:  2px 1px 4px #000000;
+    padding: 10px 40px;
+
+}
+
+.names, .info,.passwddiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+.formfields .firstname, .lastname, .email, .phonenumber,.cnfpasswd,.passwd{
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+  border: 1px solid #E5E7EB;
+  margin-bottom: 15px;
+  margin-right: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 250px;
+}
+
+input:user-invalid {
+  border-color: red;
+}
+
+input:user-valid {
+  border-color: green;
+}
+
+.button-area{
+    padding: 50px;
+}
+
+button{
+    background-color: #596D48;
+    width: 175px;
+    height: 35px;
+    border-radius: 8px;
+    color: white;
+    
+}
+
+span{
+    color: #596D48;
+}
